@@ -215,11 +215,13 @@ p{
     height: 15px;
     display: block;
     width: 100%;
+    border-radius:10px;
     background-color: rgb(69, 197, 69);
 }
 #outer-div{
     height: 15px;
     width: 100%;
+    border-radius:10px;
     background-color: gray;
     margin-bottom: 12px;
 
