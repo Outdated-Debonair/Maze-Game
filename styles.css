@@ -170,8 +170,9 @@ table {
     color: gray;
 }
 .instruction-image{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    margin-top: 4%;
 }
 .instruction p{
     margin: 2%;
