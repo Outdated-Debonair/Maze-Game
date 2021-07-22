@@ -188,6 +188,12 @@ stacky = [];
 document.getElementById("btn-ans").addEventListener("click", function bfs() {
     document.getElementById("solution-popup").style.display = "none";
     document.getElementById("mypage").style.overflow = "auto";
+    
+    var element = document.getElementById('timer-val');
+        var position = element.getBoundingClientRect();
+        var scrolltotable = position.top;
+        window.scrollTo({ top: scrolltotable, left: 0, behavior: "smooth" });
+    
     queuex.push(lastx);
     queuey.push(lasty);
     console.log("Clicked");
