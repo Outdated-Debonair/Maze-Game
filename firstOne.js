@@ -319,7 +319,7 @@ document.getElementById("cell " + (max_y - 1) + "," + (max_x - 1)).classList.add
 
 let success=false;
 var currentx = max_y - 1, currenty = max_x - 1;
-document.addEventListener("keydown", function () {
+document.addEventListener("onkeydown", function () {
     var key = event.key;
     console.log(key);
     var posx, posy;
